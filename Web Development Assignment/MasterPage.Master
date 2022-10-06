@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Web_Development_Assignment.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8"/>
+    <meta name="description" content="MasterBaker Cupcakes is located in the downtown area of Dublin. We offer cupcakes, birthday cakes, wedding cakes and we can also customize your order">
+    <meta name="keywords" content="Masterbaker Cupcakes, cupcakes, sweets, cakes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css"/>
+    <script type="text/javascript"
+     src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
+    <script type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+    <style type="text/css">
+        .auto-style2 {
+            height: 456px;
+        }
+        .auto-style3 {
+            width: 161px;
+            height: 123px;
+        }
+        .auto-style4 {
+            width: 130px;
+            height: 142px;
+        }
+        .auto-style5 {
+            width: 317px;
+            height: 141px;
+        }
+        .auto-style6 {
+            height: -12px;
+            width: 795px;
+        }
+        .auto-style7 {
+            left: 1px;
+            top: 0px;
+        }
+      
+        .auto-style8 {
+            width: 1181px;
+            height: 229px;
+            margin-bottom: 0px;
+        }
+      
+    </style>
+
+
+    </head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div id="wrapper" class="auto-style2">
+         <!--    Header section -->
+            <header class="auto-style7">
+                <img src="images/logo.jpg" alt="logo" class="auto-style8"/>
+            </header>
+
+            <!--    Navigation section -->
+            <nav>
+                <ul>
+                    <li><a href="Default.aspx"><strong>Home</strong></a></li>
+                    <li><a href="Order.aspx"><strong>Order</strong></a></li>
+                    <li><a href="checkOut.aspx"><strong>Check Out</strong></a></li>
+                    <li><a href="Staff.aspx"><strong>Staff</strong></a></li>
+                    <li><a href="Contact.aspx"><strong>Contact Us</strong></a></li>
+                    <li><a href="Aboutus.aspx"><strong>About Us</strong></a></li>
+                </ul>
+            </nav>
+         <!--    Main Content Area -->
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            <hr class="auto-style6" />
+            
+         <!--    Footer section -->
+          <footer>
+            <div class="footer">
+              <div class="Container">
+                <div class="row">
+                  <div class="footer-col-1">
+                    <h2>Delivery</h2>
+                    <p><strong>Our delivery service covers anywhere in Ireland</strong></p>
+                    <img src="images/delivery.gif" alt="delivery gif" class="auto-style4">
+                  </div>
+                  <div class="footer-col-2">
+                    <img src="images/logo.jpg" alt="Logo image" class="auto-style5">
+                      <p><strong>Copyright © 2021 Masterbaker Cupcakes</strong></p>
+                  </div>
+                  <div class="footer-col-3">
+                      <p><img src="images/ms.gif" alt="" class="auto-style3"> </p>
+                      <p><strong>Facebook</strong></p>
+                      <p><strong>Instagram</></strong></p>
+                      <p><strong>Twitter</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+             
+            </footer>
+
+         </div>
+    </form>
+</body>
+</html>

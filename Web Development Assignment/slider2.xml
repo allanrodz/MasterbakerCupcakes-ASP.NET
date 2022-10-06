@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>images/hrpic1.jpg</ImageUrl>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/hrpic2.jpg</ImageUrl>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/hrpic3.jpg</ImageUrl>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/hrpic4.jpg</ImageUrl>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/hrpic5.jpg</ImageUrl>
+	</Ad>
+</Advertisements>
